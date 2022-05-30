@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/sol.png">
+
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+
+    <title>Energía Solar</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav v-html="barranavegacion"></nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="aside-productos">
+
+                <!-- ASIDE -->
+            
+                    <div class="aside">
+                        <div class="container-productos-aside">
+                            <h4 class="producto-aside"><a href="sistemafotovoltaico.html">Sistemas Fotovoltaicos</a></h4>
+                            <h4 class="producto-aside"><a href="climatizaciondepiscinas.html">Climatización de Piscinas</a></h4>
+                            <h4 class="producto-aside"><a href="bombassolares.html">Bombas Solares</a></h4>
+                            <h4 class="producto-aside"><a href="airecalientesolar.html">Aire Caliente Solar</a></h4>
+                            <h4 class="producto-aside"><a href="aguasanitariacaliente.html">Agua Sanitaria Caliente</a></h4>
+                            <h4 class="producto-aside"><a href="puntosolar.html">Punto Solar</a></h4>
+                        </div>
+                            <div class="slide-contenedor">
+                                <div class="miSlider fade">
+                                    <img src="images/imagen.jpg">
+                                </div>
+                                <div class="miSlider fade">
+                                    <img src="images/imagen2.jpg">
+                                </div>
+                                <div class="miSlider fade">
+                                    <img src="images/imagen3.jpg">
+                                </div>
+                                <div class="barras">
+                                    <span class="barra active" onclick="posicionSlide(1)"></span>
+                                    <span class="barra" onclick="posicionSlide(2)"></span>
+                                    <span class="barra" onclick="posicionSlide(3)"></span>
+                                </div>		
+                        </div>
+                        <div class="info-aside">
+                            <p> Energía Solar Buenos Aires</p><br>
+                            <p> Ruta 3 Km 77, Cañuelas</p>
+                        </div>
+                        <div class="social-links">
+                                    <a href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fab fa-facebook-f">¡Encontranos en Facebook!</i></a><br>
+                                    <a href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fab fa-instagram">¡Encontranos en Instagram!</i></a><br>
+                                    <a href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs" target="_blank"><i class="fab fa-whatsapp">Comunicate por Whatsapp</i></a>
+                        </div>
+                    </div>
+            
+                <!-- PRODUCTOS -->
+            
+                    <section class="productos-pagina">
+            
+                        <div class="container-titulo">
+                            <h1 class="titulo"><a href="productos.html"> PRODUCTOS </a></h1>
+                        </div>
+            
+                        <div class="container-cards" id="container-cards">
+                        
+                            <div class="card">
+                                <div class="card-image1"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="card-image2"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="card-image3"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="card-image4"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <div class="card-image5"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="card">
+                                <div class="card-image6"></div>
+                                <div class="card-text">
+                                <h2>Post One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </section>
+            
+                </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer" v-html="footer"></div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/code.js"></script>
+
+</html>
